@@ -2,7 +2,6 @@
 
 ## Deel 1: Initialisatie
 
-- clone de start repo van: URL
 - Log in op je MongoDB account en stel een cluster op
 - Kopieer de url naar deze database en zet die in je config/db.js file
 
