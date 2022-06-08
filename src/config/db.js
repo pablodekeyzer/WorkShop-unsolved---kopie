@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 
 const connectDb = () => {
-  return mongoose.connect('', { useUnifiedTopology: true, useNewUrlParser: true }, err => {
+  return mongoose.connect('<your url here>', { useUnifiedTopology: true, useNewUrlParser: true }, err => {
     if (err) {
       console.log("Connection to Database failed.");
     }
